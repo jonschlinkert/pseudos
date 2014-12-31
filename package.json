@@ -1,7 +1,7 @@
 {
   "name": "pseudos",
-  "description": "List of CSS pseudo-selectors.",
-  "version": "0.1.0",
+  "description": "List of CSS pseudo-classes (selectors).",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/pseudos",
   "author": {
     "name": "Jon Schlinkert",
