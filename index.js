@@ -16,9 +16,12 @@ module.exports = [
   'after',
   'before',
   'checked',
+  'default',
+  'dir',
   'disabled',
   'empty',
   'enabled',
+  'first',
   'first-child',
   'first-letter',
   'first-line',
@@ -27,10 +30,12 @@ module.exports = [
   'fullscreen',
   'hover',
   'in-range',
+  'indeterminate',
   'invalid',
   'lang',
   'last-child',
   'last-of-type',
+  'left',
   'link',
   'not',
   'nth-child',
@@ -44,9 +49,35 @@ module.exports = [
   'read-only',
   'read-write',
   'required',
+  'right',
   'root',
+  'scope',
   'selection',
   'target',
   'valid',
   'visited'
+];
+
+/**
+ * Expose `css4` pseudos
+ */
+
+module.exports.css4 = [
+  'active-drop-target',
+  'any-link',
+  'blank',
+  'current',
+  'future',
+  'invalid-drop-target',
+  'local-link',
+  'matches',
+  'nth-column',
+  'nth-last-column',
+  'nth-last-match',
+  'nth-match',
+  'past',
+  'placeholder-shown',
+  'scope',
+  'user-error',
+  'valid-drop-target'
 ];
