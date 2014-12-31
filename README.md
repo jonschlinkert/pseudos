@@ -1,6 +1,6 @@
 # pseudos [![NPM version](https://badge.fury.io/js/pseudos.svg)](http://badge.fury.io/js/pseudos)
 
-> List of CSS pseudo-selectors.
+> List of CSS pseudo-classes (selectors).
 
 ## Install with [npm](npmjs.org)
 
@@ -8,17 +8,32 @@
 npm i pseudos --save
 ```
 
-## Run tests
-
-```bash
-npm test
-```
-
 ## Usage
+
+All [CSS3 UI pseudos](http://dev.w3.org/csswg/css-ui-3/) and [HTML5 candidates](http://www.w3.org/TR/html5/) are exported by default.
 
 ```js
 var pseudos = require('pseudos');
 //=> ['after', 'before', ...]
+```
+
+### Selectors Level 4
+
+[CSS4](http://dev.w3.org/csswg/selectors4/) pseudos are exposed on the `.css4` property:
+
+```js
+var pseudos = require('pseudos');
+console.log(pseudos.css4);
+//=> ['any-link', 'future', 'current', ...]
+```
+
+See the Mozilla docs on [Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) for more info.
+
+
+## Run tests
+
+```bash
+npm test
 ```
 
 ## Contributing
